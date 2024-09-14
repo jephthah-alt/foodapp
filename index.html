@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J3phs Food Ordering App</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <nav>
+        Welcome to J3phs Tropical Food
+    </nav>
+
+    <div class="container">
+        <div class="order-form">
+            <h2>Place Your Order</h2>
+            
+            <!-- Food Selection -->
+            <label for="food">What would you like to order?</label>
+            <select id="food">
+                <option value="">Select Food</option>
+                <option value="pizza">Pizza</option>
+                <option value="burger">Burger</option>
+                <option value="pasta">Pasta</option>
+                <option value="salad">Salad</option>
+                <option value="sushi">Sushi</option>
+            </select>
+
+            <!-- Variety Selection -->
+            <label for="variety">Choose a variety</label>
+            <select id="variety">
+                <option value="">Select Variety</option>
+            </select>
+
+            <!-- Drink Selection -->
+            <label for="drink">Would you like a drink?</label>
+            <select id="drink">
+                <option value="">Select Drink</option>
+                <option value="coke">Coke</option>
+                <option value="water">Water</option>
+                <option value="juice">Juice</option>
+                <option value="lemonade">Lemonade</option>
+                <option value="smoothie">Smoothie</option>
+            </select>
+
+            <!-- Proceed Button -->
+            <button id="proceed-button" onclick="proceedToPayment()">Proceed to Payments</button>
+        </div>
+    </div>
+
+    <footer>
+        © 2024 J3phs - All Rights Reserved
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
